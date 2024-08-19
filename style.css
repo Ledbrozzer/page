@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: /*#1f15*/#1f1517;
+    color: #ffffff;
+}
+html{
+    font-family: Teko, sans-serif;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+nav{
+    max-width: 1120px;
+    margin: auto;
+    padding: 1.5rem 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon{
+    font-family: Teko;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.navegation{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    color: #fff2e780;
+}
+.github{
+    color: #fff2e7;
+    font-weight: 600;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    background: #181012;
+}
+.dino{
+    background: #181012;
+    max-width: 1120px;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+    padding: 0rem 2rem;
+    margin: auto;
+    overflow: clip;
+}
+.dino-content{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.topics{
+    font-family: Montserrat, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.darker{
+    color: #a45a49;
+}
+.yellow{
+    color: #e7a80e;
+}
+h1{
+    font-family: Montserrat;
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+hr{
+    border-color: #fff2e780;
+}
+.subtitle-dino{
+    color: #c7bab3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.dino-img-content{
+    max-width: 45%;
+    column-count: 4;
+    column-gap: 1rem;
+    margin: -1rem;
+}
+.dino-img-content > figure > img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.container.button{
+    width: 100%;
+    max-width: 1120px;
+    margin: auto;
+    transform: translate("0, -50%");
+}
+button{
+    border: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: #a45a49;
+}
+.dinos-attributes{
+    display: flex;
+    flex-direction: column;
+    max-width: 1120px;
+    padding: 3rem 2rem;
+    margin: auto;
+}
+.attributes-heading{
+    display: flex;
+    flex-direction: column;
+}
+.title-attributes{
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff2e7;
+}
+.subtitle-attributes{
+    color: #c7bab3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.dino-with-node{
+    padding: 0rem 10rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.with-node{
+    background: #2a1a1c;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 29rem;
+    margin-top: 2rem;
+}
+.node-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+
+}
+.card-node{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.dinonode{
+    color: #fff2e7;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.dinoaval{
+    color: #756a67;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.dino-show{
+    color: #c7bab3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+}
+.deinonichus{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+.deinonichus > img{
+    border-radius: 20rem;
+    width: 1.5rem;
+}
+.dino-leader{
+    color: #c7bab3;
+    font-family: Teko, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+footer{
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    background: #23181a;
+}
+.dino-foot{
+    color: #fff2e7;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.dino-lastwords{
+    color: rgba(255, 242, 231, 0.50);
+    font-family: Teko, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
